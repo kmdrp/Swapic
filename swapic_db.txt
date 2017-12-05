@@ -1,0 +1,14 @@
+-- db 들어갈거 : 방번호,방제목,방장,인원수,비번,날짜
+
+
+create table board(
+room_no int primary key auto_increment,
+title varchar(30),
+owner varchar(20),
+password varvhcar(20),
+date timestamp default now(),
+member int default 1);
+
+
+--////////////////////////
+
