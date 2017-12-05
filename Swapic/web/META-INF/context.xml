@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <Resource
+            name="jdbc/mariadb"
+            auth="Container"
+            type="javax.sql.DataSource"
+            driverClassName="org.mariadb.jdbc.Driver"
+            loginTimeout="10"
+            maxWait="1000"
+            maxActive="50"
+            username="kmdrp"
+            password="madrid"
+            testOnBorrow="true"
+            url="jdbc:mariadb://localhost:3306/swapic"  />
+</Context>
